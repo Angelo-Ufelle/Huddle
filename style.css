@@ -299,6 +299,7 @@ path {
   .btn-free {
     margin: 0;
     padding: 0.7em 2.5em;
+    position: none;
   }
   .container-right {
     text-align: left;
