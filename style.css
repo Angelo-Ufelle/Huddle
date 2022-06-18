@@ -379,6 +379,12 @@ path {
   footer .newsletter{
     left: 15%;
   }
+  footer {
+    height: 80vh;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+  }
 }
 @media (min-width: 600px){
   footer .newsletter{
