@@ -238,7 +238,7 @@ path {
     color: hsl(322, 100%, 66%);
 }
 
-@media (min-width: 376px) {
+@media (min-width: 300px) {
   nav {
     padding: 2em 0.5rem;
   }
@@ -266,10 +266,6 @@ path {
     font-size: 1.125em;
     line-height: 0.5;
     letter-spacing: 0.1em;
-  }
-  .btn-free{
-    position: none;
-    right: 0px;
   }
   .container {
     padding: 2.5rem;
@@ -307,8 +303,8 @@ path {
   .btn-free {
     margin: 0;
     padding: 0.7em 2.5em;
-    position: none;
-    right: 0;
+    position: relative;
+    right: 300px;
   }
   .container-right {
     text-align: left;
