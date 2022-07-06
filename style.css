@@ -62,17 +62,20 @@ nav {
   border: none;
   text-decoration: none;
   box-shadow: 2px 3px 3px 1px rgb(127, 141, 152, 0.6);
-  animation: animate 2s linear infinite;
+  animation: animate 6s linear infinite;
 }
 @keyframes animate {
   0%{
     color: black;
+    background-color: #fff;
   }
   50%{
     color: limegreen;
+    background-color: #252839;
   }
   100%{
     color: aqua;
+    background-color: #fc6060;
   }
 }
 .container {
