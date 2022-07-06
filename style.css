@@ -148,7 +148,6 @@ nav {
 }
 footer {
   position: relative;
-  height: 82vh;
   display: flex;
   flex-direction: column;
   flex-shrink: 0;
@@ -205,7 +204,6 @@ path {
   cursor: pointer;
 }
 .right-wrapper {
-  height: 100px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -380,7 +378,6 @@ path {
     left: 15%;
   }
   footer {
-    height: 80vh;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
@@ -408,7 +405,6 @@ path {
 }
 @media (min-width: 868px) {
   footer {
-    height: 63vh;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
